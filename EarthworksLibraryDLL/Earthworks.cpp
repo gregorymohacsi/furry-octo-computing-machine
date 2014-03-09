@@ -57,11 +57,10 @@ namespace Earthworks
     // Default constructor and destructors
 
     CEarthworks::CEarthworks ( )
-        :
-        UChainage ( -1 ) ,
-        LChainage ( -1 ) ,
+        :UChainage ( -1.0 ) ,
+        LChainage ( -1.0 ) ,
         Zone ( -1 ) ,
-        WBSCode ( -1 ) ,
+        WBSCode ( -1 )
     {
     }
 
