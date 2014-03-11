@@ -4,52 +4,52 @@ namespace Earthworks
 {
     // setter and getter functions
 
-    void getUChainage ( )
+    double CEarthworks::getUChainage ( )
     {
-        return UChainage;
+        return CEarthworks::UChainage;
     }
 
-    void set_UChainage ( double inUChainage)
+    void CEarthworks::setUChainage ( double inUChainage)
     {
         UChainage = inUChainage;
     }
 
-    void getLChainage ( )
+    double CEarthworks::getLChainage ( )
     {
         return LChainage;
     }
 
-    void setLChainage ( double inLChainage )
+    void CEarthworks::setLChainage ( double inLChainage )
     {
         LChainage = inLChainage;
     }
 
-    void getZone ( )
+    int CEarthworks::getZone ( )
     {
         return Zone;
     }
 
-    void setZone ( int inZone )
+    void CEarthworks::setZone ( int inZone )
     {
         Zone = inZone;
     }
 
-    void getSector ( )
+    int CEarthworks::getSector ( )
     {
         return Sector;
     }
 
-    void setSector ( int inSector )
+    void CEarthworks::setSector ( int inSector )
     {
         Sector = inSector;
     }
 
-    void getWBSCode ( )
+    int CEarthworks::getWBSCode ( )
     {
         return WBSCode;
     }
 
-    void setWBSCode ( int inWBSCode )
+    void CEarthworks::setWBSCode ( int inWBSCode )
     {
         WBSCode = inWBSCode;
     }

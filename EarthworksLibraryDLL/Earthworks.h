@@ -12,17 +12,20 @@ namespace Earthworks
 
         // getter and setter function declarations
 
-        void getUChainage ( );
-        void setUChainage ( );
+        double getUChainage ( );
+        void setUChainage ( double inUChainage );
         
-        void getLChainage ( );
-        void setLChainage ( );
+        double getLChainage ( );
+        void setLChainage ( double inLChainage);
 
-        void getZone ( );
-        void setZone ( );
+        int getZone ( );
+        void setZone ( int inZone );
 
-        void getWBSCode ( );
-        void setWBSCode ( );
+        int getSector ( );
+        void setSector ( int inSector);
+
+        int getWBSCode ( );
+        void setWBSCode ( int inWBSCode);
 
         // Constructor && Destructor
 
