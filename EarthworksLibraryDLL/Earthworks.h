@@ -1,7 +1,7 @@
-#pragma once
+#ifndef __EARTHWORKS_H__
+#define __EARTHWORKS_H__
 
 namespace Earthworks
-
 {
 
     class CEarthworks
@@ -14,18 +14,18 @@ namespace Earthworks
 
         double getUChainage ( );
         void setUChainage ( double inUChainage );
-        
+
         double getLChainage ( );
-        void setLChainage ( double inLChainage);
+        void setLChainage ( double inLChainage );
 
         int getZone ( );
         void setZone ( int inZone );
 
         int getSector ( );
-        void setSector ( int inSector);
+        void setSector ( int inSector );
 
         int getWBSCode ( );
-        void setWBSCode ( int inWBSCode);
+        void setWBSCode ( int inWBSCode );
 
         // Constructor && Destructor
 
@@ -45,3 +45,5 @@ namespace Earthworks
     };
 
 }
+
+#endif

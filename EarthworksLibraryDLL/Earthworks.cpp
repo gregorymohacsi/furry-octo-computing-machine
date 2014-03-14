@@ -6,10 +6,10 @@ namespace Earthworks
 
     double CEarthworks::getUChainage ( )
     {
-        return CEarthworks::UChainage;
+        return UChainage;
     }
 
-    void CEarthworks::setUChainage ( double inUChainage)
+    void CEarthworks::setUChainage ( double inUChainage )
     {
         UChainage = inUChainage;
     }
@@ -60,6 +60,7 @@ namespace Earthworks
         :UChainage ( -1.0 ) ,
         LChainage ( -1.0 ) ,
         Zone ( -1 ) ,
+        Sector ( -1 ) ,
         WBSCode ( -1 )
     {
     }

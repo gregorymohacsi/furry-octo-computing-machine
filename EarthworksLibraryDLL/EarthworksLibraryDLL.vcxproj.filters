@@ -26,9 +26,15 @@
     <ClInclude Include="Earthworks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BalanceLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Earthworks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BalanceLine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
